@@ -4,3 +4,55 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
+
+.content {
+    margin-top: 100px; /* Adicione o valor de margem desejado */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.content h1 {
+    margin-left: 80px; /* Margem à esquerda */
+    margin-right: 100px; /* Margem à direita */   
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.content p {
+    margin-top: 50px;
+    margin-left: 100px; /* Margem à esquerda */
+    margin-right: 10%; /* Margem à direita */
+    font-size: 24px;
+}
+
+.img1 {
+    max-width: 40%; /* Define a largura máxima da imagem como 100% */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+.img2 {
+    max-width: 35%; /* Define a largura máxima da imagem como 100% */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+.img3 {
+    max-width: 50%; /* Define a largura máxima da imagem como 100% */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.img4 {
+  max-width: 70%; /* Define a largura máxima da imagem como 100% */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Garante que a imagem se comporte como um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  margin-top: 25px;
+  margin-bottom: 50px;
+}

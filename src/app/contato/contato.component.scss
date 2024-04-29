@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.contato {
+    text-transform: uppercase;
+    font-family: roboto;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ababab;
+    color: #0072BC;
+}
+
+.button-enviar {
+    width: 10em;
+    background-color: #003264;
+    border: none;
+}
+
+.button-enviar:hover {
+    background-color: #548ac0;
+}
+
+.button-enviar:focus {
+    border: 1px solid #003264;
+}
+
+.forms {
+    font-family: roboto;
+}
+
+.t-footer {
+    background-color: #E4ECF0;
+    border-radius: 30px;
+    margin-top: 1em;
+    max-width: 1700px;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 880px) {
+
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+/* ANIMAÇÕES */
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}

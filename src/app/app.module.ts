@@ -4,19 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ContatoComponent } from './contato/contato.component';
 import { PgPrincipalComponent } from './pg-principal/pg-principal.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContatoModule } from './contato/contato.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ContatoComponent,
-    PgPrincipalComponent
+    PgPrincipalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ContatoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,8 +1,11 @@
-.container {
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; /* Importante para incluir o padding na largura total */
+.container-prin {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
   }
   

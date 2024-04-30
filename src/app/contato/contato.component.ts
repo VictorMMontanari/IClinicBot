@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators, FormControl, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-contato',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contato.component.scss']
 })
 export class ContatoComponent implements OnInit {
+  contatoForm = new FormGroup({
+    firstName: new FormControl(''),
+    lastName: new FormControl(''),
+  });
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  enviarMensagem() {
+    if (this.contatoForm.valid) {
+      const mensagem = this.contatoForm.value;
+      console.log(mensagem); 
+    } else {
+      // Tratar erros de validação do formulário
+    }
   }
-
 }

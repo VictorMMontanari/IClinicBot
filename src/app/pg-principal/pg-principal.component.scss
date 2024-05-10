@@ -15,50 +15,71 @@
 }
 
 .rectangle {
-    width: 300px; /* Largura dos retângulos */
-    height: 400px; /* Altura dos retângulos */
-    background-color: #ccc; /* Cor de fundo cinza */
-    margin-right: 50px; /* Espaçamento entre os retângulos */
+    width: 300px; 
+    height: 480px; 
+    background-color: #ccc;
+    margin-right: 50px; 
     margin-top: 50px;
 }
 
-.rectangle h2 {
+.rectangle h3 {
     margin: 5px 0;
     text-align: center;
 }
 
 .rectangle p {
     text-align: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+}
+
+.rectangle1 {
+    width: 400px; 
+    height: 480px; 
+    background-color: #ccc;
+    margin-right: 50px; 
+    margin-top: 50px;
+}
+
+.rectangle1 h3 {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.rectangle1 p {
+    text-align: center;
+    margin-top: 25px;
     margin-left: 15px;
     margin-right: 15px;
     font-size: 19px;
 }
 
 .content {
-    margin-top: 6.25rem; /* Adicione o valor de margem desejado */
+    margin-top: 6.25rem; 
     margin-left: 6.25rem;
     margin-right: 6.25rem;
 }
 
 .content h1 {
-    margin-left: 80px; /* Margem à esquerda */
-    margin-right: 6.25rem; /* Margem à direita */   
-    font-size: 35px;
+    margin-left: 80px; 
+    margin-right: 6.25rem; 
     font-weight: bold;
 }
 
 .content p {
     margin-top: 50px;
-    margin-left: 6.25rem; /* Margem à esquerda */
-    margin-right: 10%; /* Margem à direita */
+    margin-left: 6.25rem; 
+    margin-right: 10%; 
     font-size: 24px;
 }
 
 .img1 {
-    max-width: 30%; /* Define a largura máxima da imagem como 100% */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem se comporte como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 30%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .content2 {
@@ -70,16 +91,16 @@
 }
 
 .content2 h1 {
-    margin-left: 80px; /* Margem à esquerda */
-    margin-right: 6.25rem; /* Margem à direita */   
+    margin-left: 80px; 
+    margin-right: 6.25rem; 
     font-size: 35px;
     font-weight: bold;
 }
 
 .content2 p {
     margin-top: 50px;
-    margin-left: 6.25rem; /* Margem à esquerda */
-    margin-right: 10%; /* Margem à direita */
+    margin-left: 6.25rem; 
+    margin-right: 10%; 
     font-size: 24px;
 }
 
@@ -88,26 +109,41 @@
 }
 
 .img2 {
-    max-width: 100%; /* Define a largura máxima da imagem como 100% */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem se comporte como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .img3 {
-    max-width: 50%; /* Define a largura máxima da imagem como 100% */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem se comporte como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .img4 {
-    max-width: 70%; /* Define a largura máxima da imagem como 100% */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem se comporte como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    margin-top: 25px;
+    max-width: 70%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 35px;
     margin-bottom: 50px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: 9999;
+}
+
+.container1 {
+    display: flex;
+    padding: 100px 150px 100px 200px;
+    background: #EBF6FF;
+    align-items: center; 
+    justify-content: center; 
 }

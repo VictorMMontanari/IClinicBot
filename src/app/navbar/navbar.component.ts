@@ -12,4 +12,10 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleMenu(): void {
+    const navbar = document.querySelector('.navbar');
+    if (navbar) {
+      navbar.classList.toggle('active');
+    }
+  }
 }

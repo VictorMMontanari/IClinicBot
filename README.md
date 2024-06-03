@@ -9,6 +9,9 @@
   </a>
 </p>
 
+# Sobre o Projeto
+Este projeto consiste exclusivamente no front end, que é um site informativo sobre nosso Bot de Atendimento Médico para clínicas da área da saúde.
+
 # Front End
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.3.11.

@@ -9,6 +9,17 @@
   </a>
 </p>
 
+### Back-End
+<a  href="https://github.com/HeitorSKimura/IClinicBot_BackEnd">
+  Click para entrar no github IClinicBot_BackEnd
+</a>
+
+### ChatBot
+
+<a  href="https://github.com/FERNANDO-MATSUHASHI/IClinicBot-ChatBot">
+  Click para entrar no github IClinicBot-ChatBot
+</a>
+
 # Sobre o Projeto
 Este projeto consiste exclusivamente no front end, que é um site informativo sobre nosso Bot de Atendimento Médico para clínicas da área da saúde.
 

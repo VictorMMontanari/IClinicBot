@@ -2,6 +2,13 @@
     <img src="https://skillicons.dev/icons?i=github,angular,nodejs,ts,html,css" />
 </p>
 
+# Figma do Projeto 
+<p>
+  <a href="https://www.figma.com/design/mI8nKhcoAbCsjKFlgEEC1L/IClinicBot?node-id=0-1">
+    <img src="https://skillicons.dev/icons?i=figma" />
+  </a>
+</p>
+
 # Front End
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.3.11.

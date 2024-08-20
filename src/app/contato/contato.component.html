@@ -8,10 +8,10 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-8 p-5">
                     <h4 id="contato" class="display-6 contato">CONTATE-NOS</h4>
-                    <form class="row g-3 needs-validation forms" action="https://formsubmit.co/matsu_zf@hotmail.com" method="POST">
+                    <form class="row g-3 needs-validation forms" (ngSubmit)="onSubmit()" novalidate>
                         <div class="col-md-6">
                             <label for="validationCustom01" class="form-label">Nome:</label>
-                            <input type="text" name="Nome" class="form-control" id="validationCustom01" value="" required>
+                            <input type="text" [(ngModel)]="contato.nome" name="Nome" class="form-control" id="validationCustom01" value="" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -21,7 +21,7 @@
                         </div>
                         <div class="col-md-6">
                             <label for="validationCustom02" class="form-label">Sobrenome:</label>
-                            <input type="text" name="Sobrenome" class="form-control" id="validationCustom02"  value="" required>
+                            <input type="text" [(ngModel)]="contato.sobrenome" name="Sobrenome" class="form-control" id="validationCustom02"  value="" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-md-12">
                             <label for="validationCustom02" class="form-label">Telefone:</label>
-                            <input type="number" name="Telefone" class="form-control form-tp" placeholder="(__) _____-____" id="validationCustom02" value="" required>
+                            <input type="number" [(ngModel)]="contato.telefone" name="Telefone" class="form-control form-tp" placeholder="(__) _____-____" id="validationCustom02" value="" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -41,7 +41,7 @@
                         </div>
                         <div class="col-md-12">
                             <label for="validationCustom03" class="form-label">Email:</label>
-                            <input type="email" name="Email" class="form-control" id="validationCustom03" required>
+                            <input type="email" [(ngModel)]="contato.email" name="Email" class="form-control" id="validationCustom03" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -51,7 +51,7 @@
                         </div>
                         <div class="mb-3 col-md-12">
                             <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
-                            <textarea class="form-control" name="Mensagem" id="exampleFormControlTextarea1" rows="3"
+                            <textarea class="form-control" [(ngModel)]="contato.mensagem" name="Mensagem" id="exampleFormControlTextarea1" rows="3"
                                 placeholder="Escreva aqui o assunto..." required></textarea>
                             <div class="valid-feedback">
                                 Concluído!
@@ -64,9 +64,7 @@
                             <button class="btn btn-primary button-enviar" type="submit" data-bs-toggle="modal"
                                 data-bs-target="#exemploModal" target="_blank">Enviar</button>
                         </div>
-                        <input type="hidden" name="_subject" value="Novo Contato - IClinicBot">
-                        <input type="text" name="_honey" style="display: none;">
-                        <input type="hidden" name="_captcha" value="false">
+                        
                     </form>
                 </div>
             </div>

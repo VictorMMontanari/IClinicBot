@@ -7,18 +7,24 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PgPrincipalComponent } from './pg-principal/pg-principal.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContatoModule } from './contato/contato.module';
+import { ChatComponent } from './chat/chat.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     PgPrincipalComponent,
-    FooterComponent
+    FooterComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ContatoModule
+    ContatoModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

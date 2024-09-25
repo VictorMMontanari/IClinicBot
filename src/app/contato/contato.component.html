@@ -1,5 +1,48 @@
-
 <main id="main">
+    <div class="spacer" role="main" id="cases"></div>
+
+    <div class="conteinerex">
+        <div class="container" role="main">
+            <div class="rectangle1">
+                <img class="img4" alt="Imagem" src="../assets/img/planoBasico.jpg" />
+                <h2>Plano Básico</h2>
+                <p>ChatBot sem inteligência artificial</p>
+                <p>20 conversas simultâneas</p>
+                <p>Agendamento de consultas e exames</p>
+                <div class="priceBasico">
+                    <p>R$ 400,00</p>
+                </div>                
+            </div>
+
+            <div class="rectangle1" style="position: relative;">
+                <!-- Aba laranja -->
+                <div class="tab-laranja">
+                    Melhor custo benefício
+                </div>
+                <img class="img4" alt="Imagem" src="../assets/img/planoPro.jpg" />
+                <h2>Plano Pró</h2>
+                <p>ChatBot com inteligência artificial</p>
+                <p>40 conversas simultâneas</p>
+                <p>Agendamento de consultas e exames</p>
+                <p>Tirar dúvidas sobre sintomas</p>
+                <div class="pricePro">
+                    <p>R$ 700,00</p>
+                </div>  
+            </div>
+
+            <div class="rectangle1">
+                <img class="img4" alt="Imagem" src="../assets/img/planoPremiun.jpg" />
+                <h2>Plano Premium</h2>
+                <p>ChatBot com inteligência artificial</p>
+                <p>100 conversas simultâneas</p>
+                <p>Agendamento para consultas e exames</p>
+                <p>Tirar dúvidas sobre sintimas</p>
+                <div class="pricePremium">
+                    <p>R$ à combinar</p>
+                </div>  
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="container t-footer">
             <div class="row m-0 p-0">
@@ -11,7 +54,8 @@
                     <form class="row g-3 needs-validation forms" (ngSubmit)="onSubmit()" novalidate>
                         <div class="col-md-6">
                             <label for="validationCustom01" class="form-label">Nome:</label>
-                            <input type="text" [(ngModel)]="contato.nome" name="Nome" class="form-control" id="validationCustom01" value="" required>
+                            <input type="text" [(ngModel)]="contato.nome" name="Nome" class="form-control"
+                                id="validationCustom01" value="" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -21,7 +65,8 @@
                         </div>
                         <div class="col-md-6">
                             <label for="validationCustom02" class="form-label">Sobrenome:</label>
-                            <input type="text" [(ngModel)]="contato.sobrenome" name="Sobrenome" class="form-control" id="validationCustom02"  value="" required>
+                            <input type="text" [(ngModel)]="contato.sobrenome" name="Sobrenome" class="form-control"
+                                id="validationCustom02" value="" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -31,7 +76,9 @@
                         </div>
                         <div class="col-md-12">
                             <label for="validationCustom02" class="form-label">Telefone:</label>
-                            <input type="number" [(ngModel)]="contato.telefone" name="Telefone" class="form-control form-tp" placeholder="(__) _____-____" id="validationCustom02" value="" required>
+                            <input type="number" [(ngModel)]="contato.telefone" name="Telefone"
+                                class="form-control form-tp" placeholder="(__) _____-____" id="validationCustom02"
+                                value="" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -41,7 +88,8 @@
                         </div>
                         <div class="col-md-12">
                             <label for="validationCustom03" class="form-label">Email:</label>
-                            <input type="email" [(ngModel)]="contato.email" name="Email" class="form-control" id="validationCustom03" required>
+                            <input type="email" [(ngModel)]="contato.email" name="Email" class="form-control"
+                                id="validationCustom03" required>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -51,8 +99,9 @@
                         </div>
                         <div class="mb-3 col-md-12">
                             <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
-                            <textarea class="form-control" [(ngModel)]="contato.mensagem" name="Mensagem" id="exampleFormControlTextarea1" rows="3"
-                                placeholder="Escreva aqui o assunto..." required></textarea>
+                            <textarea class="form-control" [(ngModel)]="contato.mensagem" name="Mensagem"
+                                id="exampleFormControlTextarea1" rows="3" placeholder="Escreva aqui o assunto..."
+                                required></textarea>
                             <div class="valid-feedback">
                                 Concluído!
                             </div>
@@ -64,7 +113,7 @@
                             <button class="btn btn-primary button-enviar" type="submit" data-bs-toggle="modal"
                                 data-bs-target="#exemploModal" target="_blank">Enviar</button>
                         </div>
-                        
+
                     </form>
                 </div>
             </div>

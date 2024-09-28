@@ -11,3 +11,19 @@
     font-size: 20px;
     font-weight: bold;   
 }
+
+@media (max-width: 850px) { 
+    .toolbar1 {
+        display: flex;
+        align-items: center;
+        background-color: #EEEAEA;
+        color: black;
+        padding: 5px, 4px;
+        padding-left: 20px;
+    }
+
+    .toolbar1 p {
+        font-size: 15px;
+        font-weight: bold;   
+    }
+}

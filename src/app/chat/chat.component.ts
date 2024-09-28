@@ -33,7 +33,8 @@ export class ChatComponent {
     this.messages.push({ role: 'Você', content: this.userMessage });
 
     // Faz a requisição POST para a API
-    this.http.post<{ resposta: string }>('http://localhost:5000/api/chat', {
+    // this.http.post<{ resposta: string }>('http://localhost:5000/api/chat', {
+    this.http.post<{ resposta: string }>('https://chatllama-tw11.onrender.com/api/chat', {
       mensagem_usuario: this.userMessage
     }).subscribe(
       response => {

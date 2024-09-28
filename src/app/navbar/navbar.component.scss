@@ -163,3 +163,67 @@
         border-bottom: none;
     }
 }
+
+@media (max-width: 850px) { 
+    .toolbar-nav {
+        position: fixed;
+        top: 0; /* Garante que a barra fique no topo da tela */
+        left: 0; /* Garante que a barra comece do lado esquerdo da tela */
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 1px;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-nav {
+        width: 6rem; /* Ajustei o tamanho da logo */
+        background-size: contain;
+    }
+
+    .nav2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        .material-symbols-outlined {
+            font-size: 40px !important;
+        }
+    }
+
+    .navbar {
+        visibility: hidden;
+        width: 100%;
+        background-color: #EEEAEA;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        z-index: 1;
+        box-shadow: 2px 3px 4px 0px #888888;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-out, visibility 0s 0.5s;
+        align-items: center;
+    }
+
+    .navbar a {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .btn {
+        height: 2rem;
+        border-radius: 18px;
+        color: white;
+        background-color: #0C57CF;
+        border: none;
+        align-items: center;
+        display: inline-block;
+        cursor: pointer;
+    }
+}

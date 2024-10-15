@@ -2,20 +2,20 @@
   <img src="../assets/img/TesteIA.png" alt="Fale Conosco Pelo WhatsApp" width="85" (click)="toggleChat()" />
 </div>
 
-<div class="chat-container" *ngIf="isChatVisible" [ngClass]="{'show': isChatVisible}">
+<q-chat-message class="chat-container" *ngIf="isChatVisible" [ngClass]="{'show': isChatVisible}">
   <div class="chat-messages">
     <div *ngFor="let msg of messages">
       <strong>{{ msg.role }}:</strong> {{ msg.content }}
     </div>
   </div>
   <div class="chat-input">
-    <input 
-      [(ngModel)]="userMessage" 
-      placeholder="Digite sua mensagem..." 
-      (keydown.enter)="sendMessage()"  
-      aria-label="Digite sua mensagem" 
+    <input
+      [(ngModel)]="userMessage"
+      placeholder="Digite sua mensagem..."
+      (keydown.enter)="sendMessage()"
+      aria-label="Digite sua mensagem"
     />
     <button (click)="sendMessage()" aria-label="Enviar mensagem">Enviar</button>
   </div>
-  
-</div>
+
+</q-chat-message>

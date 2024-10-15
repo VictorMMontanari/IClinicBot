@@ -1,3 +1,9 @@
+.scale-80 {
+  transform: scale(0.65);
+  transform-origin: top center;
+  margin-top: 80px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -5,10 +11,10 @@
 }
 
 .rectangle {
-    width: 300px; 
-    height: 480px; 
+    width: 300px;
+    height: 480px;
     background-color: #ccc;
-    margin-right: 50px; 
+    margin-right: 50px;
     margin-top: 50px;
 }
 
@@ -26,8 +32,8 @@
 }
 
 .rectanglef {
-    width: 300px; 
-    height: 480px; 
+    width: 300px;
+    height: 480px;
     background-color: #ccc;
     margin-top: 50px;
 }
@@ -46,10 +52,10 @@
 }
 
 .rectangle1 {
-    width: 400px; 
-    height: 480px; 
+    width: 400px;
+    height: 480px;
     background-color: #ccc;
-    margin-right: 50px; 
+    margin-right: 50px;
     margin-top: 50px;
 }
 
@@ -67,8 +73,8 @@
 }
 
 .rectanglef1 {
-    width: 400px; 
-    height: 480px; 
+    width: 400px;
+    height: 480px;
     background-color: #ccc;
     margin-top: 50px;
 }
@@ -87,10 +93,10 @@
 }
 
 .img1 {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 6px;
 }
 
@@ -103,16 +109,16 @@
 }
 
 .content1 h1 {
-    margin-left: 80px; 
-    margin-right: 6.25rem; 
+    margin-left: 80px;
+    margin-right: 6.25rem;
     font-size: 35px;
     font-weight: bold;
 }
 
 .content1 p {
     margin-top: 50px;
-    margin-left: 6.25rem; 
-    margin-right: 10%; 
+    margin-left: 6.25rem;
+    margin-right: 10%;
     font-size: 24px;
 }
 
@@ -129,16 +135,16 @@
 }
 
 .content2 h1 {
-    margin-left: 80px; 
-    margin-right: 6.25rem; 
+    margin-left: 80px;
+    margin-right: 6.25rem;
     font-size: 35px;
     font-weight: bold;
 }
 
 .content2 p {
     margin-top: 50px;
-    margin-left: 6.25rem; 
-    margin-right: 10%; 
+    margin-left: 6.25rem;
+    margin-right: 10%;
     font-size: 24px;
 }
 
@@ -147,28 +153,28 @@
 }
 
 .img2 {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 6px;
 }
 
 .img3 {
-    max-width: 50%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 6px;
 }
 
 .img4 {
-    max-width: 70%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     margin-top: 35px;
     margin-bottom: 50px;
     border-radius: 6px;
@@ -188,7 +194,7 @@
 }
 
 .title h1{
-    margin-top: 180px; 
+    margin-top: 180px;
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -200,14 +206,14 @@
 }
 
 .contimg {
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-@media (max-width: 1560px) { 
+@media (max-width: 1560px) {
     .img1 {
-        max-width: 70%; 
+        max-width: 70%;
         margin-bottom: 3rem;
     }
     .info1, .info2 {
@@ -242,9 +248,9 @@
 }
 
 
-@media (max-width: 999px) { 
+@media (max-width: 999px) {
     .img1 {
-        max-width: 70%; 
+        max-width: 70%;
         margin-bottom: 3rem;
     }
     .info1, .info2 {
@@ -263,7 +269,7 @@
     }
 
     .img2 {
-        max-width: 70%; 
+        max-width: 70%;
         margin-bottom: 3rem;
     }
 
@@ -291,7 +297,7 @@
 
     .title h1{
         font-size: 30px;
-        margin-top: 30px; 
+        margin-top: 30px;
     }
 
     .title {
@@ -313,13 +319,13 @@
         width: 300px;
     }
     .contimg {
-        display: flex; 
-        flex-direction: none; 
+        display: flex;
+        flex-direction: none;
         justify-content: none;
     }
 }
 
-@media (max-width: 700px) {  
+@media (max-width: 700px) {
     .content1 h1, .content2 h1{
         text-align: center;
         margin: 0px;

@@ -1,4 +1,3 @@
-
 .contato {
     text-transform: uppercase;
     font-family: roboto;
@@ -50,8 +49,8 @@
     border-radius: 8px;
 }
 
-.form-tp::-webkit-inner-spin-button { 
-    -webkit-appearance: none;  
+.form-tp::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .show {
@@ -62,10 +61,8 @@
 
 .container {
     display: flex;
-    justify-content: center; 
-    align-items: flex-start; 
-    gap: 50px;
-    padding-bottom: 6.25rem;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .rectangle1 {
@@ -73,33 +70,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 500px; 
-    height: 850px; 
+    width: 400px;
+    height: 580px;
     background-color: #ccc;
-    margin-top: 50px;
-    padding: 20px; 
-    box-sizing: border-box; 
-    border-radius: 10px; 
-    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2); 
+    margin-top: 90px;
+    margin-left: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
 }
 
 .rectangle1 p {
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 23px;
+    font-size: 15px;
 }
 
 .rectangle1 h2 {
     margin-top: 25px;;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
+    font-size: 25px;
 }
 
 .img4 {
-    max-width: 450px; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 280px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 6px;
 }
 
@@ -109,17 +106,15 @@
 }
 
 .spacer {
-    height: 100px;
+    height: 10px;
 }
 
 main {
-    background-color: #EBF6FF; 
+    background-color: #EBF6FF;
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-color: #EBF6FF; 
-    overflow-x: hidden; 
-    margin-bottom: 60px;
+    background-color: #EBF6FF;
+    overflow-x: hidden;
 }
 
 .priceBasico {
@@ -128,7 +123,7 @@ main {
 }
 
 .priceBasico p {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     margin: 0;
     color: #2259ff;
@@ -139,7 +134,7 @@ main {
 }
 
 .pricePro p {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     margin: 0;
     color: #2259ff;
@@ -151,7 +146,7 @@ main {
 }
 
 .pricePremium p {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     margin: 0;
     color: #2259ff;
@@ -162,30 +157,30 @@ main {
     background-color: orange; /* Cor de fundo laranja */
     color: white; /* Cor do texto */
     font-weight: bold; /* Texto em negrito */
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px; /* Espaçamento interno */
     text-align: center; /* Centraliza o texto */
     top: -39px; /* Ajusta a distância acima do retângulo */
     left: 0; /* Alinha a aba ao lado esquerdo do retângulo */
     width: 100%; /* Define a largura da aba para 100% do retângulo */
-    height: 43px;
+    height: 40px;
     border-radius: 10px 10px 0 0; /* Bordas superiores arredondadas */
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
     .content-img {
         display: none;
     }
 
     .spacer {
         height: 40px;
-    }  
+    }
 
     .img4 {
-        max-width: 300px; 
-        height: auto; 
-        display: block; 
-        margin: 0 auto; 
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
         border-radius: 6px;
     }
 
@@ -194,12 +189,12 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        width: 500px; 
-        height: 700px; 
+        width: 500px;
+        height: 700px;
         background-color: #ccc;
-        box-sizing: border-box; 
-        border-radius: 10px; 
-        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2); 
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
     }
 
     .rectangle1 p {
@@ -208,7 +203,7 @@ main {
         margin-right: 15px;
         font-size: 15px;
     }
-    
+
     .rectangle1 h2 {
         margin-top: 50px;;
         margin-bottom: 50px;
@@ -218,7 +213,7 @@ main {
         align-self: flex-end;
         margin-top: 50px;
     }
-    
+
     .priceBasico p {
         font-size: 25px;
         font-weight: bold;
@@ -236,12 +231,12 @@ main {
         margin: 10px;
         color: #2259ff;
     }
-    
+
     .pricePremium {
         align-self: flex-end;
-    
+
     }
-    
+
     .pricePremium p {
         font-size: 25px;
         font-weight: bold;
@@ -262,18 +257,5 @@ main {
         width: 100%; /* Define a largura da aba para 100% do retângulo */
         height: 50px;
         border-radius: 10px 10px 0 0; /* Bordas superiores arredondadas */
-    }
-}
-
-@media (max-width: 1600px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .rectangle1 {
-        width: 100%;
-        max-width: 500px; 
-        margin-bottom: 20px;
     }
 }

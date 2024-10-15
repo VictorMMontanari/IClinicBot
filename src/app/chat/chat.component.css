@@ -1,20 +1,22 @@
 .whats img {
   cursor: pointer;
+  width: 50px;
+  height: 50px;
 }
 
 .whats {
   position: fixed; /* Fixa a imagem na tela */
-  bottom: 20px; /* Distância do fundo da tela */
-  right: 20px; /* Distância da direita da tela */
+  bottom: 15px; /* Distância do fundo da tela */
+  right: 15px; /* Distância da direita da tela */
   z-index: 1000; /* Para garantir que a imagem fique acima de outros elementos */
 }
 
 .chat-container {
   position: fixed; /* Fixa o balão na tela */
-  bottom: 90px; /* Distância do fundo da tela */
-  right: 100px; /* Distância da direita da tela */
-  width: 400px; /* Largura do balão */
-  height: 600px; /* Altura fixa do balão */
+  bottom: 70px; /* Distância do fundo da tela */
+  right: 70px; /* Distância da direita da tela */
+  width: 300px; /* Largura do balão */
+  height: 500px; /* Altura fixa do balão */
   max-height: none; /* Remove a altura máxima */
   background: #f1f1f1; /* Cor de fundo do balão */
   border-radius: 10px; /* Bordas arredondadas */
@@ -36,14 +38,14 @@
 
 
 .chat-container.expanded {
-  height: 400px; /* Altura expandida */
+  height: 40px; /* Altura expandida */
 }
 
 .chat-messages {
-  max-height: 500px; /* Limite de altura para as mensagens */
+  max-height: 420px; /* Limite de altura para as mensagens */
   overflow-y: auto; /* Permite rolagem */
   padding: 10px; /* Espaçamento interno */
-  font-size: 20px; /* Tamanho da fonte das mensagens */
+  font-size: 15px; /* Tamanho da fonte das mensagens */
 }
 
 
@@ -56,7 +58,7 @@
   background: #f1f1f1; /* Fundo da caixa de entrada */
   padding: 5px; /* Espaçamento interno */
   border-top: 1px solid #ddd; /* Linha acima da caixa de entrada */
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .chat-input input {
@@ -65,12 +67,12 @@
   border: 1px solid #ccc; /* Adiciona uma borda ao input */
   border-radius: 4px; /* Arredonda os cantos */
   outline: none; /* Remove a borda de foco padrão */
-  font-size: 20px; /* Tamanho da fonte do campo de entrada */
+  font-size: 15px; /* Tamanho da fonte do campo de entrada */
 }
 
 .chat-input button {
   padding: 10px 15px; /* Aumenta o espaçamento do botão */
-  font-size: 16px; /* Tamanho da fonte do botão */
+  font-size: 15px; /* Tamanho da fonte do botão */
   background-color: #007bff; /* Cor de fundo do botão */
   color: #fff; /* Cor do texto */
   border: none; /* Remove a borda padrão */
@@ -80,11 +82,11 @@
 }
 
 .chat-messages strong {
-  font-size: 20px; /* Tamanho da fonte do remetente */
+  font-size: 15px; /* Tamanho da fonte do remetente */
   color: #333; /* Cor do texto do nome do remetente */
 }
 
-@media (max-width: 850px) { 
+@media (max-width: 850px) {
   .whats img {
     cursor: pointer;
     width: 50px; /* Ajuste a largura conforme necessário */

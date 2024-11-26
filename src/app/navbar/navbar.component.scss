@@ -9,30 +9,30 @@
 }
 
 .nav1 {
-    width: 20%; /* Reduzi a largura da logo para evitar desalinhamento */
+    width: 20%;
     display: flex;
     align-items: center;
 }
 
 .nav2 {
-    width: 80%; /* O restante fica para os links */
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 6rem;
+    height: 4rem;
     flex-grow: 1;
 }
 
 .img-nav {
-    width: 10rem; /* Ajustei o tamanho da logo */
+    width: 6rem;
     background-size: contain;
-    padding-left: 2rem; /* Reduzi o padding para centralizar melhor */
+    padding-left: 2rem;
 }
 
 .navbar {
     display: flex;
     padding: 5px 0;
-    width: 100%; /* Modifiquei para ocupar 100% da largura */
+    width: 100%;
     margin: 0 auto;
     background-color: #EEEAEA;
     border-radius: 10px 10px 10px 10px;
@@ -43,12 +43,12 @@
 }
 
 .navbar a {
-    text-decoration: none; 
-    font-size: 30px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .btn {
-    height: 3.2rem;
+    height: 2.6rem;
     border-radius: 18px;
     color: white;
     background-color: #0C57CF;
@@ -68,55 +68,27 @@
 }
 
 .nav-link {
-    color: black; /* Cor preta para os links */
-    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black;
+    text-decoration: none;
 
-    
+
 }
 
 .nav-link:hover, .nav-link:focus, .nav-link:active {
-    color: #5304f1; /* Um tom mais escuro quando o mouse passar por cima ou quando o link estiver focado */
-    transition: color 0.3s ease; /* Transição suave na cor */
+    color: #5304f1;
+    transition: color 0.3s ease;
 }
 
-// @media (max-width: 1000px) { 
-//     .nav1 {
-//         width: 30%;
-//     }
-//     .nav2 {
-//         width: 70%;
-//     }
-//     .img-nav {
-//         padding: 0;
-//         width: 5rem;
-//         margin-left: 4rem;
-//     }
-// }
-
-// @media (max-width: 770px) { 
-//     .nav1 {
-//         width: 20%;
-//     }
-//     .nav2 {
-//         width: 80%;
-//     }
-//     .img-nav {
-//         padding: 0;
-//         width: 5rem;
-//         margin-left: 1rem;
-//     }
-// }
-
-@media (max-width: 1180px) { 
+@media (max-width: 1180px) {
     .toolbar-nav {
         display: flex;
         align-items: center;
     }
 
     .img-nav {
-        width: 95%;
+        width: 100px;
         background-size: contain;
-        padding-left: 2rem; /* Reduzi o padding para centralizar melhor */
+        padding-left: 2rem;
     }
     .nav2 {
         width: 100%;
@@ -145,14 +117,14 @@
         transition: max-height 0.5s ease-out, visibility 0s 0.5s;
         align-items: center;
     }
-    
+
     .navbar.active {
         visibility: visible;
-        max-height: 500px; /* Ajuste conforme necessário para a altura do conteúdo */
+        max-height: 500px;
         transition: max-height 0.5s ease-in, visibility 0s;
         align-items: center;
     }
-    
+
     .navbar a {
         width: 100%;
         text-align: center;
@@ -164,11 +136,11 @@
     }
 }
 
-@media (max-width: 850px) { 
+@media (max-width: 850px) {
     .toolbar-nav {
         position: fixed;
-        top: 0; /* Garante que a barra fique no topo da tela */
-        left: 0; /* Garante que a barra comece do lado esquerdo da tela */
+        top: 0;
+        left: 0;
         justify-content: center;
         align-items: center;
         background-color: #ffffff;
@@ -178,7 +150,7 @@
     }
 
     .img-nav {
-        width: 6rem; /* Ajustei o tamanho da logo */
+        width: 6rem;
         background-size: contain;
     }
 

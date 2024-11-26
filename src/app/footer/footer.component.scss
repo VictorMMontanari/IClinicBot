@@ -3,16 +3,16 @@
     align-items: center;
     background-color: #EEEAEA;
     color: black;
-    padding: 15px;
+    padding-top: 15px;
     padding-left: 100px;
 }
 
 .toolbar1 p {
-    font-size: 20px;
-    font-weight: bold;   
+    font-size: 15px;
+    font-weight: bold;
 }
 
-@media (max-width: 850px) { 
+@media (max-width: 850px) {
     .toolbar1 {
         display: flex;
         align-items: center;
@@ -24,6 +24,6 @@
 
     .toolbar1 p {
         font-size: 15px;
-        font-weight: bold;   
+        font-weight: bold;
     }
 }

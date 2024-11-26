@@ -102,15 +102,16 @@
 
   .chat-container {
     position: fixed; /* Fixa o balão na tela */
-    bottom: 65px; /* Distância do fundo da tela */
-    right: 65px; /* Distância da direita da tela */
-    width: 280px; /* Largura do balão */
+    bottom: 75px; /* Distância do fundo da tela */
+    right: 25px; /* Distância da direita da tela */
+    width: 300px; /* Largura do balão */
     height: 400px; /* Altura fixa do balão */
   }
 
   .chat-messages {
     position: fixed;
     max-height: 330px; /* Limite de altura para as mensagens */
+    max-width: 250px;
     overflow-y: auto; /* Permite rolagem */
     padding: 10px; /* Espaçamento interno */
     font-size: 15px; /* Tamanho da fonte das mensagens */
@@ -142,14 +143,13 @@
   }
 
   .chat-input {
-    position: absolute; /* Fixa a posição em relação ao contêiner do chat */
-    bottom: 0; /* Coloca a caixa de entrada na parte inferior */
-    left: 0; /* Alinha à esquerda do contêiner */
-    right: 0; /* Alinha à direita do contêiner */
-    display: flex; /* Exibe os itens da caixa de entrada em linha */
-    background: #f1f1f1; /* Fundo da caixa de entrada */
-    padding: 5px; /* Espaçamento interno */
-    border-top: 1px solid #ddd; /* Linha acima da caixa de entrada */
+    position: absolute;
+    display: flex;
+    background: #f1f1f1;
+    padding: 5px;
+    border-top: 1px solid #ddd;
     font-size: 15px;
-  }
+    width: 60%;
+
+}
 }

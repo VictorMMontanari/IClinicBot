@@ -118,7 +118,7 @@ export class ChatComponent {
     };
 
     // Faz a requisição POST para a API
-    this.http.post<{ resposta: string, session_id: string }>('https://chatllama-tw11.onrender.com/api/chat', body)
+    this.http.post<{ resposta: string, session_id: string }>('https://www.admmaster.com.br/api/chat', body)
       .subscribe(
         response => {
           // Armazena o session_id da resposta

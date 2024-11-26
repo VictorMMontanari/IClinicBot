@@ -7,7 +7,7 @@ import { Contato } from './contato.component.model';
   providedIn: 'root'
 })
 export class ContatoService {
-  private apiUrl = 'https://localhost:7112/api/Contato';
+  private apiUrl = 'https://www.admmaster.com.br/api/Contato';
 
   private httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })

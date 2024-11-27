@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators, FormControl, ReactiveFormsModule } from '@angular/forms';
 import { ContatoService } from './contato.component.service';
 import { Contato } from './contato.component.model';
 
@@ -9,22 +8,9 @@ import { Contato } from './contato.component.model';
   styleUrls: ['./contato.component.scss']
 })
 export class ContatoComponent implements OnInit {
-  // contatoForm = new FormGroup({
-  //   firstName: new FormControl(''),
-  //   lastName: new FormControl(''),
-  // });
 
   ngOnInit(): void {}
   constructor(private contatoService: ContatoService) {}
-
-  // enviarMensagem() {
-  //   if (this.contatoForm.valid) {
-  //     const mensagem = this.contatoForm.value;
-  //     console.log(mensagem); 
-  //   } else {
-  //     // Tratar erros de validação do formulário
-  //   }
-  // }
 
   contato: Contato = {
     nome: '',

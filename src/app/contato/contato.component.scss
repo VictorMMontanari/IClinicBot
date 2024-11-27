@@ -153,21 +153,20 @@ main {
 }
 
 .tab-laranja {
-    position: absolute; /* Adiciona o posicionamento necessário */
-    background-color: orange; /* Cor de fundo laranja */
-    color: white; /* Cor do texto */
-    font-weight: bold; /* Texto em negrito */
+    position: absolute;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
     font-size: 15px;
-    padding: 10px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    top: -39px; /* Ajusta a distância acima do retângulo */
-    left: 0; /* Alinha a aba ao lado esquerdo do retângulo */
-    width: 100%; /* Define a largura da aba para 100% do retângulo */
+    padding: 10px;
+    text-align: center;
+    top: -39px;
+    left: 0;
+    width: 100%;
     height: 40px;
-    border-radius: 10px 10px 0 0; /* Bordas superiores arredondadas */
+    border-radius: 10px 10px 0 0;
 }
 
-/* Supondo que .rectangle1 seja o estilo de cada retângulo */
 @media (max-width: 1060px) {
   .content-img {
       display: none;
@@ -187,15 +186,15 @@ main {
 
   .container {
     display: flex;
-    flex-direction: column; /* Garante que os retângulos fiquem um abaixo do outro */
+    flex-direction: column;
     align-items: center;
-    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 100%;
 }
 
   .rectangle1 {
-    width: 90%; /* Ajuste a largura para ocupar quase toda a largura do contêiner */
-    max-width: 500px; /* Define um limite máximo de largura para evitar que fique muito grande */
-    margin-bottom: 20px; /* Espaçamento entre os retângulos */
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 20px;
     background-color: #ccc;
     box-sizing: border-box;
     border-radius: 10px;
@@ -204,7 +203,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: auto; /* Garante que a altura se ajuste ao conteúdo */
+    height: auto;
 }
 
   .rectangle1 p {
@@ -249,15 +248,15 @@ main {
 
 @media (max-width: 412px) {
   .img4 {
-    max-width: 200px; /* Diminui a largura máxima da imagem */
-    height: auto; /* Mantém a proporção */
+    max-width: 200px;
+    height: auto;
   }
 }
 
 @media (max-width: 297px) {
   .img4 {
-    max-width: 100px; /* Diminui a largura máxima da imagem */
-    height: auto; /* Mantém a proporção */
+    max-width: 100px; 
+    height: auto;
   }
 }
 
